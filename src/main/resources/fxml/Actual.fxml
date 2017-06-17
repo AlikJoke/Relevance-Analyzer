@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="376.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="ru.project.relevance.analyzer.controller.ActualizeController">
+   <children>
+      <Button layoutX="132.0" layoutY="97.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="156.0" text="Добавление статистики" />
+      <Button layoutX="132.0" layoutY="203.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="156.0" text="Назад" onAction="#back" />
+   </children>
+</Pane>

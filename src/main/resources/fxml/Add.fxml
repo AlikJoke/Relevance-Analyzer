@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="376.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="ru.project.relevance.analyzer.controller.AddingController">
+   <children>
+      <Button layoutX="85.0" layoutY="140.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="251.0" text="Добавление статистики" />
+      <Button layoutX="85.0" layoutY="211.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="251.0" text="Назад" onAction="#back" />
+      <TextField layoutX="85.0" layoutY="76.0" prefHeight="25.0" prefWidth="153.0" promptText="Название" fx:id="name" />
+      <Button layoutX="258.0" layoutY="76.0" mnemonicParsing="false" text="Сохранить" textAlignment="CENTER" onAction="#save"  />
+   </children>
+</Pane>

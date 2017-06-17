@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="376.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="ru.project.relevance.analyzer.controller.SetUpController">
+   <children>
+      <Button layoutX="102.0" layoutY="126.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="231.0" text="Изменить научное направление" onAction="#changing" />
+      <Button layoutX="102.0" layoutY="188.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="231.0" text="Оценка актуальности" onAction="#assessment" />
+      <Button layoutX="102.0" layoutY="246.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="231.0" text="Выход" onAction="#exit" />
+      <ChoiceBox layoutX="102.0" layoutY="68.0" prefHeight="25.0" prefWidth="231.0" fx:id="choiceBox" />
+   </children>
+</Pane>
